@@ -1,0 +1,169 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitattributes
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* README.md
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/cn/
+* app/src/main/java/cn/trinea/
+* app/src/main/java/cn/trinea/android/
+* app/src/main/java/cn/trinea/android/common/
+* app/src/main/java/cn/trinea/android/common/constant/
+* app/src/main/java/cn/trinea/android/common/constant/DbConstants.java
+* app/src/main/java/cn/trinea/android/common/constant/HttpConstants.java
+* app/src/main/java/cn/trinea/android/common/dao/
+* app/src/main/java/cn/trinea/android/common/dao/HttpCacheDao.java
+* app/src/main/java/cn/trinea/android/common/dao/ImageSDCardCacheDao.java
+* app/src/main/java/cn/trinea/android/common/dao/impl/
+* app/src/main/java/cn/trinea/android/common/dao/impl/HttpCacheDaoImpl.java
+* app/src/main/java/cn/trinea/android/common/dao/impl/ImageSDCardCacheDaoImpl.java
+* app/src/main/java/cn/trinea/android/common/entity/
+* app/src/main/java/cn/trinea/android/common/entity/CacheObject.java
+* app/src/main/java/cn/trinea/android/common/entity/FailedReason.java
+* app/src/main/java/cn/trinea/android/common/entity/HttpRequest.java
+* app/src/main/java/cn/trinea/android/common/entity/HttpResponse.java
+* app/src/main/java/cn/trinea/android/common/entity/PatchResult.java
+* app/src/main/java/cn/trinea/android/common/service/
+* app/src/main/java/cn/trinea/android/common/service/Cache.java
+* app/src/main/java/cn/trinea/android/common/service/CacheFullRemoveType.java
+* app/src/main/java/cn/trinea/android/common/service/FileNameRule.java
+* app/src/main/java/cn/trinea/android/common/service/HttpCache.java
+* app/src/main/java/cn/trinea/android/common/service/impl/
+* app/src/main/java/cn/trinea/android/common/service/impl/FileNameRuleCurrentTime.java
+* app/src/main/java/cn/trinea/android/common/service/impl/FileNameRuleImageUrl.java
+* app/src/main/java/cn/trinea/android/common/service/impl/ImageCache.java
+* app/src/main/java/cn/trinea/android/common/service/impl/ImageMemoryCache.java
+* app/src/main/java/cn/trinea/android/common/service/impl/ImageSDCardCache.java
+* app/src/main/java/cn/trinea/android/common/service/impl/PreloadDataCache.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeBitmapLarge.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeBitmapSmall.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeDataBig.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeDataSmall.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeEnterTimeFirst.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeEnterTimeLast.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeFileLarge.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeFileSmall.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeLastUsedTimeFirst.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeLastUsedTimeLast.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeNotRemove.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypePriorityHigh.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypePriorityLow.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeUsedCountBig.java
+* app/src/main/java/cn/trinea/android/common/service/impl/RemoveTypeUsedCountSmall.java
+* app/src/main/java/cn/trinea/android/common/service/impl/SimpleCache.java
+* app/src/main/java/cn/trinea/android/common/util/
+* app/src/main/java/cn/trinea/android/common/util/AppUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ArrayUtils.java
+* app/src/main/java/cn/trinea/android/common/util/AssetDatabaseOpenHelper.java
+* app/src/main/java/cn/trinea/android/common/util/CacheManager.java
+* app/src/main/java/cn/trinea/android/common/util/CollectionUtils.java
+* app/src/main/java/cn/trinea/android/common/util/DbHelper.java
+* app/src/main/java/cn/trinea/android/common/util/DigestUtils.java
+* app/src/main/java/cn/trinea/android/common/util/DownloadManagerPro.java
+* app/src/main/java/cn/trinea/android/common/util/FileUtils.java
+* app/src/main/java/cn/trinea/android/common/util/HttpUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ImageCacheManager.java
+* app/src/main/java/cn/trinea/android/common/util/ImageUtils.java
+* app/src/main/java/cn/trinea/android/common/util/JSONUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ListUtils.java
+* app/src/main/java/cn/trinea/android/common/util/MapUtils.java
+* app/src/main/java/cn/trinea/android/common/util/NetWorkUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ObjectUtils.java
+* app/src/main/java/cn/trinea/android/common/util/PackageUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ParcelUtils.java
+* app/src/main/java/cn/trinea/android/common/util/PatchUtils.java
+* app/src/main/java/cn/trinea/android/common/util/PreferencesUtils.java
+* app/src/main/java/cn/trinea/android/common/util/RandomUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ResourceUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ScreenUtils.java
+* app/src/main/java/cn/trinea/android/common/util/SerializeUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ShellUtils.java
+* app/src/main/java/cn/trinea/android/common/util/SingletonUtils.java
+* app/src/main/java/cn/trinea/android/common/util/SizeUtils.java
+* app/src/main/java/cn/trinea/android/common/util/SqliteUtils.java
+* app/src/main/java/cn/trinea/android/common/util/StringUtils.java
+* app/src/main/java/cn/trinea/android/common/util/SystemUtils.java
+* app/src/main/java/cn/trinea/android/common/util/TimeUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ToastUtils.java
+* app/src/main/java/cn/trinea/android/common/util/ViewUtils.java
+* app/src/main/java/cn/trinea/android/common/view/
+* app/src/main/java/cn/trinea/android/common/view/BorderScrollView.java
+* app/src/main/java/cn/trinea/android/common/view/DropDownListView.java
+* app/src/main/java/cn/trinea/android/common/view/HorizontalListView.java
+* app/src/main/java/cn/trinea/android/common/view/SlideOnePageGallery.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/drop_down_list_arrow.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/drop_down_list_arrow.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/drop_down_list_arrow.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/drop_down_list_footer.xml
+* app/src/main/res/layout/drop_down_list_header.xml
+* app/src/main/res/values-zh-rCN/
+* app/src/main/res/values-zh-rCN/strings.xml
+* app/src/main/res/values-zh-rTW/
+* app/src/main/res/values-zh-rTW/strings.xml
+* app/src/main/res/values/
+* app/src/main/res/values/attrs.xml
+* app/src/main/res/values/colors.xml
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* pom.xml
+* proguard.cfg
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
